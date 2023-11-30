@@ -53,17 +53,42 @@ def stream_markup_timer(_, chat_id, played, dur):
     else:
         bar = "—————————◉"
     buttons = [
+                [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+                      [
+            InlineKeyboardButton(
+
+                text="➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+
+                url=f"https://t.me/Ishq_music_bot?startgroup=true",
+
+            ),
+          ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
+         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
+
+                text="ᴊᴏɪɴ ᴜꜱ 💌",
+
+                url=f"https://t.me/+SWooBuMdjPxkODFl",
+
+            ),
+            InlineKeyboardButton(
+
+                text="💕 ᴏᴡɴᴇʀ",
+
+                url=f"https://t.me/Mr_majnu72",
+
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -77,6 +102,22 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+         [
+            InlineKeyboardButton(
+
+                text="ᴊᴏɪɴ ᴜꜱ 💌",
+
+                url=f"https://t.me/+SWooBuMdjPxkODFl",
+
+            ),
+            InlineKeyboardButton(
+
+                text="💕 ᴏᴡɴᴇʀ",
+
+                url=f"https://t.me/Mr_majnu72",
+
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
