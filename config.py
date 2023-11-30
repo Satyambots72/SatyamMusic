@@ -9,7 +9,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID","6435225"))
 API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("BOT_TOKEN","6082036827:AAFHdZKu5JCrcFjFTBbO8ylbtMegxG5N_JI")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ishq:80IP5QTFQtvM8i5L@ishq.rwtsuig.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001840241140"))
@@ -42,13 +42,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/f03c2fbfd5150b8e90c18.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f03c2fbfd5150b8e90c18.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/f03c2fbfd5150b8e90c18.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
