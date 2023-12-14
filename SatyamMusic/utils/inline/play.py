@@ -1,5 +1,5 @@
 import math
-
+from SatyamMusic import app
 from pyrogram.types import InlineKeyboardButton
 
 from SatyamMusic.utils.formatters import time_to_seconds
@@ -64,7 +64,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
 
-                url=f"https://t.me/Ishq_music_bot?startgroup=true",
+                url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
 
             ),
           ],
@@ -79,7 +79,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="ᴊᴏɪɴ ᴜꜱ 💌",
 
-                url=f"https://t.me/+SWooBuMdjPxkODFl",
+                url=f"https://t.me/+guAp1LJxFbY4ODdl",
 
             ),
             InlineKeyboardButton(
@@ -108,7 +108,7 @@ def stream_markup(_, chat_id):
 
                 text="ᴊᴏɪɴ ᴜꜱ 💌",
 
-                url=f"https://t.me/+SWooBuMdjPxkODFl",
+                url=f"https://t.me/+guAp1LJxFbY4ODdl",
 
             ),
             InlineKeyboardButton(
